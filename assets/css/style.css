@@ -217,6 +217,15 @@ main {
     color: var(--accent);
 }
 
+.identity-summary {
+    max-width: 620px;
+    margin: 14px auto 0;
+    color: var(--muted);
+    font-size: clamp(13px, 1.7vw, 15px);
+    line-height: 1.75;
+    text-wrap: pretty;
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;
