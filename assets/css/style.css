@@ -180,7 +180,7 @@ main {
 }
 
 .description {
-    margin: 0 0 24px;
+    margin: 0 0 42px;
     color: var(--accent);
     font-size: clamp(11px, 1.5vw, 13px);
     font-weight: 750;
