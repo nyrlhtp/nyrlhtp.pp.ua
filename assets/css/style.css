@@ -96,7 +96,19 @@ main {
   filter: grayscale(100%);
   transition: filter 0.35s ease;
 }
+.logo img {
+  animation: logo-rotate 12s linear infinite;
+  transform-origin: center;
+}
 
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* При наведении — исходные цвета */
 .logo:hover img {
   filter: grayscale(0%);
@@ -106,11 +118,19 @@ main {
 .logo:focus-visible img {
   filter: grayscale(0%);
 }
+.logo img:hover {
+  animation: logo-rotate 3s linear infinite;
+}
 
 /* Учитываем настройки уменьшения анимации */
 @media (prefers-reduced-motion: reduce) {
   .logo img {
     transition: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .logo img {
+    animation: none;
   }
 }
 .menu {
