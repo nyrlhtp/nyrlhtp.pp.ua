@@ -209,7 +209,9 @@ main {
     padding: 8px 0;
     color: var(--muted);
     font-size: clamp(13px, 1.8vw, 15px);
-    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
 .profession span {
