@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nyrlhtp.pp.ua/sitemap.xml
