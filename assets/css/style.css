@@ -82,7 +82,6 @@ main {
     align-items: center;
     min-width: 0;
 }
-
 .logo img {
     display: block;
     width: auto;
@@ -92,6 +91,28 @@ main {
     object-fit: contain;
 }
 
+/* Логотип по умолчанию — чёрно-белый */
+.logo img {
+  filter: grayscale(100%);
+  transition: filter 0.35s ease;
+}
+
+/* При наведении — исходные цвета */
+.logo:hover img {
+  filter: grayscale(0%);
+}
+
+/* Поддержка клавиатурной навигации */
+.logo:focus-visible img {
+  filter: grayscale(0%);
+}
+
+/* Учитываем настройки уменьшения анимации */
+@media (prefers-reduced-motion: reduce) {
+  .logo img {
+    transition: none;
+  }
+}
 .menu {
     display: flex;
     align-items: center;
@@ -238,6 +259,7 @@ main {
     gap: 4px 10px;
     max-width: 760px;
     margin: 24px auto 24px;
+    padding-top: 50px;
     padding-inline: 8px;
     color: var(--text);
     font-size: clamp(12px, 1.6vw, 14px);
