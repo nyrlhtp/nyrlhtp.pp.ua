@@ -71,7 +71,6 @@ button:focus-visible {
     justify-content: space-between;
     gap: clamp(16px, 3vw, 40px);
     min-height: 84px;
-    border-bottom: 1px solid var(--line);
 }
 main {
     border: 1px solid var(--line);
@@ -352,7 +351,6 @@ main {
 .site-footer {
     flex: 0 0 auto;
     padding: 18px 12px max(18px, env(safe-area-inset-bottom));
-    border-top: 1px solid var(--line);
     color: var(--muted);
     font-size: 12px;
     line-height: 1.6;
