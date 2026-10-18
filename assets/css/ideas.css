@@ -8,7 +8,7 @@
   --ideas-accent: #b6a487;
   --ideas-line: rgba(240, 238, 232, 0.15);
 
-  width: min(100% - 48px, 900px);
+  width:100%;
   margin-inline: auto;
   padding-block: clamp(64px, 10vw, 120px) 48px;
   color: var(--ideas-text);
