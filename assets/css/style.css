@@ -109,6 +109,7 @@ main {
     transform: rotate(360deg);
   }
 }
+
 /* При наведении — исходные цвета */
 .logo:hover img {
   filter: grayscale(0%);
