@@ -73,7 +73,9 @@ button:focus-visible {
     min-height: 84px;
     border-bottom: 1px solid var(--line);
 }
-
+main {
+    border: 1px solid var(--line);
+}
 .logo {
     display: inline-flex;
     flex: 0 1 auto;
