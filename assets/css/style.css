@@ -133,6 +133,11 @@ main {
     animation: none;
   }
 }
+.channel {
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .menu {
     display: flex;
     align-items: center;
