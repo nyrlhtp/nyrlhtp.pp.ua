@@ -74,6 +74,7 @@ button:focus-visible {
 }
 main {
     border: 1px solid var(--line);
+    border-radius: 2%;
 }
 .logo {
     display: inline-flex;
