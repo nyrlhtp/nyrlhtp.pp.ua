@@ -4,127 +4,128 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#080910">
-    <meta name="description" content="Авторський проєкт у сфері практичної філософії.">
+    <meta name="description" content="Авторський проєкт у сфері практичної філософії: культура думки, архітектура сенсу та інженерія знання.">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="author" content="Nyarlathotep">
     <link rel="canonical" href="https://nyrlhtp.pp.ua/">
 
-    <title>Nyarlathotep — Філософія і Психологія | Приватна практика</title>
+    <title>Nyarlathotep — Практична філософія</title>
 
     <meta property="og:type" content="profile">
     <meta property="og:locale" content="uk_UA">
     <meta property="og:site_name" content="Nyarlathotep">
-    <meta property="og:title" content="Nyarlathotep — Філософія і Психологія | Приватна практика">
-    <meta property="og:description" content="Авторський проєкт у сфері практичної філософії.">
+    <meta property="og:title" content="Nyarlathotep — Практична філософія">
+    <meta property="og:description" content="Авторський проєкт у сфері практичної філософії: культура думки, архітектура сенсу та інженерія знання.">
     <meta property="og:url" content="https://nyrlhtp.pp.ua/">
     <meta property="og:image" content="https://nyrlhtp.pp.ua/assets/images/avatar.jpeg">
     <meta property="og:image:width" content="736">
     <meta property="og:image:height" content="736">
     <meta property="og:image:alt" content="Аватар Nyarlathotep (@nyrlhtp)">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Nyarlathotep — Філософія і Психологія | Приватна практика">
-    <meta name="twitter:description" content="Авторський проєкт у сфері практичної філософії.">
+    <meta name="twitter:title" content="Nyarlathotep — Практична філософія">
+    <meta name="twitter:description" content="Авторський проєкт у сфері практичної філософії: культура думки, архітектура сенсу та інженерія знання.">
     <meta name="twitter:image" content="https://nyrlhtp.pp.ua/assets/images/avatar.jpeg">
     <meta name="twitter:image:alt" content="Аватар Nyarlathotep (@nyrlhtp)">
 
     <link rel="icon" href="/assets/images/logo.png" type="image/png">
     <link rel="apple-touch-icon" href="/assets/images/avatar.jpeg">
-
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div class="site-shell">
         <header class="site-header">
-            <div class="branding">
-                <a class="logo" href="https://nyrlhtp.pp.ua/" aria-label="Nyarlathotep — головна">
-                    <img src="./assets/images/logo.png" alt="@nyrlhtp" width="180" height="48">
-                </a>
-                
-            </div>
+            <a class="logo" href="/" aria-label="Nyarlathotep — головна">
+                <img src="./assets/images/logo.png" alt="Nyarlathotep" width="180" height="48">
+            </a>
 
-            <nav class="d-flex align-items-center justify-content-end gap-4" role="navigation">
-                <a class="current" href="index.html" title="Головна">Головна</a>
-                <a href="#" title="Персона">Персона</a>
-                <a href="#" title="Ідеї">Ідеї</a>
-                <a href="#" title="Практика">Практика</a>
-                <a href="#" title="Думки">Думки</a>
-                <a href="#" title="Контакти">Контакти</a>
-                <a href="#" title="Підтримка">Підтримка</a>
+            <button class="nav-toggle" id="nav-toggle" type="button"
+                    aria-controls="main-navigation" aria-expanded="false"
+                    aria-label="Відкрити меню">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <nav class="menu" id="main-navigation" aria-label="Головна навігація">
+                <a class="current" href="./index.html" aria-current="page">Головна</a>
+                <a href="#">Персона</a>
+                <a href="#">Ідеї</a>
+                <a href="#">Практика</a>
+                <a href="#">Думки</a>
+                <a href="#">Контакти</a>
+                <a href="#">Підтримка</a>
             </nav>
         </header>
 
-        <main>
+        <main id="main-content">
             <section id="identity" class="identity" aria-labelledby="identity-title">
                 <p class="description">Філософ <span aria-hidden="true">·</span> Психолог</p>
 
                 <div class="avatar">
-                    <img src="./assets/images/avatar.jpeg" alt="Аватар Nyarlathotep" width="164" height="164" fetchpriority="high">
+                    <img src="./assets/images/avatar.jpeg"
+                         alt="Nyarlathotep"
+                         width="164" height="164"
+                         fetchpriority="high" decoding="async">
                 </div>
 
                 <hgroup>
                     <h1 id="identity-title" class="name">Nyarlathotep</h1>
-                    <p class="username"><img src="./assets/images/nyrlhtp.png" title="@nyrlhtp" alt="@nyrlhtp" height="20"></p>
+                    <p class="username">
+                        <img src="./assets/images/nyrlhtp.png" alt="@nyrlhtp" width="96" height="20" decoding="async">
+                    </p>
                     <p class="profession">Приватна наукова практика</p>
                 </hgroup>
 
-                <nav class="social-section" aria-label="Публікації">
-                    <a href="https://nyrlhtp.pp.ua/medium" target="_blank" aria-label="Medium" title="Medium"><i class="fa-brands fa-medium" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/substack" target="_blank" aria-label="Substack" title="Substack"><i class="fa-brands fa-substack" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/blogger" target="_blank" aria-label="Blogger" title="Blogger"><i class="fa-brands fa-blogger-b" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/github" target="_blank" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <nav class="social-section publication-links" aria-label="Публікації та проєкти">
+                    <a href="https://nyrlhtp.pp.ua/medium" target="_blank" rel="noopener noreferrer" aria-label="Medium" title="Medium"><i class="fa-brands fa-medium" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/substack" target="_blank" rel="noopener noreferrer" aria-label="Substack" title="Substack"><i class="fa-brands fa-substack" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/blogger" target="_blank" rel="noopener noreferrer" aria-label="Blogger" title="Blogger"><i class="fa-brands fa-blogger-b" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/github" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
                 </nav>
-                
-                        <p class="identity-summary">Авторський науковий проєкт у сфері практичної філософії.</p>
 
+                <p class="identity-summary">Авторський науковий проєкт у сфері практичної філософії.</p>
             </section>
-            
-            <section id="social-links">
-                <nav class="social-section" aria-label="Соціальні мережі">
-                    <a href="https://nyrlhtp.pp.ua/facebook" target="_blank" aria-label="Facebook" title="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/instagram" target="_blank" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/threads" target="_blank" aria-label="Threads" title="Threads"><i class="fa-brands fa-threads" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/x" target="_blank" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/tiktok" target="_blank" aria-label="TikTok" title="TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/linkedin" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/youtube" target="_blank" aria-label="YouTube" title="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/pinterest" target="_blank" aria-label="Pinterest" title="Pinterest"><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/tumblr" target="_blank" aria-label="Tumblr" title="Tumblr"><i class="fa-brands fa-tumblr" aria-hidden="true"></i></a>
+
+            <section id="social-links" aria-label="Соціальні мережі">
+                <nav class="social-section profile-links" aria-label="Профілі в соціальних мережах">
+                    <a href="https://nyrlhtp.pp.ua/facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/threads" target="_blank" rel="noopener noreferrer" aria-label="Threads" title="Threads"><i class="fa-brands fa-threads" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/x" target="_blank" rel="noopener noreferrer" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/tiktok" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/youtube" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/pinterest" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" title="Pinterest"><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/tumblr" target="_blank" rel="noopener noreferrer" aria-label="Tumblr" title="Tumblr"><i class="fa-brands fa-tumblr" aria-hidden="true"></i></a>
                 </nav>
             </section>
-            <section id="practice">
-                <div class="services" aria-label="Напрями практики">
-                        <a href="#">Культура думки</a>
-                        <span class="service-separator" aria-hidden="true">·</span>
-                        <a href="#">Архітектура сенсу</a>
-                        <span class="service-separator" aria-hidden="true">·</span>
-                        <a href="#">Інженерія знання</a>
-                        <span class="service-separator" aria-hidden="true">·</span>
-                        <a href="#">Топологія свідомого</a>
-                        <span class="service-separator" aria-hidden="true">·</span>
-                        <a href="#">Моделювання представлення</a>
+
+            <section id="practice" aria-label="Напрями практики">
+                <div class="services">
+                    <a href="./practice.html#culture-of-thought">Культура думки</a>
+                    <span class="service-separator" aria-hidden="true">·</span>
+                    <a href="./practice.html#architecture-of-meaning">Архітектура сенсу</a>
+                    <span class="service-separator" aria-hidden="true">·</span>
+                    <a href="./practice.html#engineering-of-knowledge">Інженерія знання</a>
+                    <span class="service-separator" aria-hidden="true">·</span>
+                    <a href="./practice.html#topology-of-consciousness">Топологія свідомого</a>
+                    <span class="service-separator" aria-hidden="true">·</span>
+                    <a href="./practice.html#representation-modeling">Моделювання представлення</a>
                 </div>
             </section>
 
-            
-            <section id="channels" class="social-section" aria-label="Канали">
-                <a href="https://nyrlhtp.pp.ua/telegram" target="_blank" aria-label="Telegram" title="Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
-                <a href="https://nyrlhtp.pp.ua/viber" target="_blank" aria-label="Viber" title="Viber"><i class="fa-brands fa-viber" aria-hidden="true"></i></a>
-                <a href="https://nyrlhtp.pp.ua/whatsapp" target="_blank" aria-label="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            <section id="channels" class="social-section contact-links" aria-label="Канали зв'язку">
+                <a href="https://nyrlhtp.pp.ua/telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram" title="Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
+                <a href="https://nyrlhtp.pp.ua/viber" target="_blank" rel="noopener noreferrer" aria-label="Viber" title="Viber"><i class="fa-brands fa-viber" aria-hidden="true"></i></a>
+                <a href="https://nyrlhtp.pp.ua/whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
             </section>
         </main>
 
         <footer class="site-footer">
-            <p>© <span id="year">2026</span></p>
+            <p>© <time id="year" datetime="2026">2026</time> Nyarlathotep</p>
         </footer>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -170,39 +171,56 @@
     </script>
 
     <script>
-        (() => {
-            const toggle = document.querySelector('#nav-toggle');
-            const navigation = document.querySelector('#main-navigation');
-            const icon = toggle.querySelector('i');
+    (() => {
+        const toggle = document.getElementById("nav-toggle");
+        const navigation = document.getElementById("main-navigation");
+        const year = document.getElementById("year");
 
-            function setMenuOpen(open) {
-                navigation.classList.toggle('is-open', open);
-                toggle.setAttribute('aria-expanded', String(open));
-                toggle.setAttribute('aria-label', open ? 'Закрити меню' : 'Відкрити меню');
-                icon.classList.toggle('fa-bars', !open);
-                icon.classList.toggle('fa-xmark', open);
+        if (year) {
+            const currentYear = new Date().getFullYear();
+            year.textContent = currentYear;
+            year.setAttribute("datetime", String(currentYear));
+        }
+
+        if (!toggle || !navigation) return;
+
+        const icon = toggle.querySelector("i");
+
+        function setMenuOpen(open) {
+            navigation.classList.toggle("is-open", open);
+            toggle.setAttribute("aria-expanded", String(open));
+            toggle.setAttribute("aria-label", open ? "Закрити меню" : "Відкрити меню");
+
+            if (icon) {
+                icon.classList.toggle("fa-bars", !open);
+                icon.classList.toggle("fa-xmark", open);
             }
+        }
 
-            toggle.addEventListener('click', () => {
-                setMenuOpen(toggle.getAttribute('aria-expanded') !== 'true');
-            });
+        toggle.addEventListener("click", () => {
+            setMenuOpen(toggle.getAttribute("aria-expanded") !== "true");
+        });
 
-            navigation.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', () => setMenuOpen(false));
-            });
+        navigation.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", () => setMenuOpen(false));
+        });
 
-            document.addEventListener('keydown', event => {
-                if (event.key === 'Escape') setMenuOpen(false);
-            });
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") setMenuOpen(false);
+        });
 
-            document.addEventListener('click', event => {
-                if (!navigation.contains(event.target) && !toggle.contains(event.target)) {
-                    setMenuOpen(false);
-                }
-            });
+        document.addEventListener("click", (event) => {
+            if (!navigation.contains(event.target) && !toggle.contains(event.target)) {
+                setMenuOpen(false);
+            }
+        });
 
-            document.querySelector('#year').textContent = new Date().getFullYear();
-        })();
+        window.addEventListener("resize", () => {
+            if (window.matchMedia("(min-width: 901px)").matches) {
+                setMenuOpen(false);
+            }
+        });
+    })();
     </script>
 </body>
 </html>
