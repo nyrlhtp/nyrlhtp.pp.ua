@@ -33,9 +33,9 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
      
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" media="all">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="./assets/css/style.css" rel="stylesheet" media="all">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="site-shell">
@@ -46,6 +46,16 @@
                 </a>
                 
             </div>
+
+            <nav class="d-flex align-items-center justify-content-end gap-4" role="navigation">
+                <a class="current" href="index.html" title="Головна">Головна</a>
+                <a href="./profile.html" title="Персона">Персона</a>
+                <a href="./ideas.html" title="Ідеї">Ідеї</a>
+                <a href="./practice.html" title="Практика">Практика</a>
+                <a href="./thoughts.html" title="Думки">Думки</a>
+                <a href="./contacts.html" title="Контакти">Контакти</a>
+                <a href="./donate.html" title="Підтримка">Підтримка</a>
+            </nav>
         </header>
 
         <main>
@@ -62,7 +72,14 @@
                     <p class="profession">Приватна наукова практика</p>
                 </hgroup>
 
-                <p class="identity-summary">Авторський проєкт у сфері практичної філософії.</p>
+                <nav class="social-section" aria-label="Публікації">
+                    <a href="https://nyrlhtp.pp.ua/medium" target="_blank" aria-label="Medium" title="Medium"><i class="fa-brands fa-medium" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/substack" target="_blank" aria-label="Substack" title="Substack"><i class="fa-brands fa-substack" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/blogger" target="_blank" aria-label="Blogger" title="Blogger"><i class="fa-brands fa-blogger-b" aria-hidden="true"></i></a>
+                    <a href="https://nyrlhtp.pp.ua/github" target="_blank" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                </nav>
+                
+                        <p class="identity-summary">Авторський науковий проєкт у сфері практичної філософії.</p>
 
             </section>
             
@@ -77,17 +94,19 @@
                     <a href="https://nyrlhtp.pp.ua/youtube" target="_blank" aria-label="YouTube" title="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
                     <a href="https://nyrlhtp.pp.ua/pinterest" target="_blank" aria-label="Pinterest" title="Pinterest"><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a>
                     <a href="https://nyrlhtp.pp.ua/tumblr" target="_blank" aria-label="Tumblr" title="Tumblr"><i class="fa-brands fa-tumblr" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/medium" target="_blank" aria-label="Medium" title="Medium"><i class="fa-brands fa-medium" aria-hidden="true"></i></a>
-                    <a href="https://nyrlhtp.pp.ua/substack" target="_blank" aria-label="Substack" title="Substack"><i class="fa-solid fa-book-open" aria-hidden="true"></i></a>
                 </nav>
             </section>
             <section id="practice">
                 <div class="services" aria-label="Напрями практики">
-                    <span class="service">Культура думки</span>
-                    <span class="service-separator" aria-hidden="true">·</span>
-                    <span class="service">Архітектура сенсу</span>
-                    <span class="service-separator" aria-hidden="true">·</span>
-                    <span class="service">Інженерія знання</span>
+                        <a href="#">Культура думки</a>
+                        <span class="service-separator" aria-hidden="true">·</span>
+                        <a href="#">Архітектура сенсу</a>
+                        <span class="service-separator" aria-hidden="true">·</span>
+                        <a href="#">Інженерія знання</a>
+                        <span class="service-separator" aria-hidden="true">·</span>
+                        <a href="#">Топологія свідомого</a>
+                        <span class="service-separator" aria-hidden="true">·</span>
+                        <a href="#">Моделювання представлення</a>
                 </div>
             </section>
 
